@@ -8,6 +8,5 @@ dnf -y copr enable ryanabx/cosmic-epoch
 #Install Cosmic Nightly
 dnf -y install cosmic-desktop --setopt=install_weak_deps=False
 
-#Cleanup and remove COPR repo
-dnf clean all
+#Remove the COPR repository
 rm -f /etc/yum.repos.d/*copr*.repo
