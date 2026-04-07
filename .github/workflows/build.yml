@@ -38,5 +38,8 @@ jobs:
           registry_token: ${{ github.token }}
           pr_event_number: ${{ github.event.number }}
 
+          # rechunk the image, allowing for smaller images and smaller updates
+          build_chunked_oci: true
+
           # enabled by default, disable if your image is small and you want faster builds
           maximize_build_space: true
