@@ -8,11 +8,6 @@ image-version: latest
 
 #Module Configuration, Executed in Order
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: /
-
   - type: script
     scripts:
     - kernel-cachyos.sh
@@ -25,7 +20,7 @@ modules:
         #System Packages
         - fastfetch
         - fish
-
+    
     #Remove Packages
     remove:
       packages:
