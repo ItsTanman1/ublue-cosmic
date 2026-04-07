@@ -22,6 +22,5 @@ dracut --kver "$VER" \
     --reproducible \
     "/usr/lib/modules/$VER/initramfs.img"
 
-#Cleanup and remove COPR repo
-dnf clean all
+#Remove the COPR repository
 rm -f /etc/yum.repos.d/*copr*.repo
