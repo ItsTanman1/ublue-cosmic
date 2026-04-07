@@ -3,9 +3,9 @@
 My personal Universal Blue based OS image. This build focuses on integrating the COSMIC desktop environment and the CachyOS kernel onto a stable atomic base.
 Personal Configuration
 
-  Kernel: Swapped to the CachyOS kernel for more performance in game.
+- Kernel: Swapped to the CachyOS kernel for more performance in game.
 
-  Desktop: Pre-configured with the COSMIC desktop environment.
+- Desktop: Pre-configured with the COSMIC desktop environment.
 
 ## Installation
 
