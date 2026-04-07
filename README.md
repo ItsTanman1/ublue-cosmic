@@ -1,13 +1,13 @@
 # ublue-cosmic &nbsp; [![bluebuild build badge](https://github.com/itstanman1/ublue-cosmic/actions/workflows/build.yml/badge.svg)](https://github.com/itstanman1/ublue-cosmic/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+My personal Universal Blue based OS image. This build focuses on integrating the COSMIC desktop environment and the CachyOS kernel onto a stable atomic base.
+Personal Configuration
 
-After setup, it is recommended you update this README to describe your custom image.
+  Kernel: Swapped to the CachyOS kernel for more performance in game.
+
+  Desktop: Pre-configured with the COSMIC desktop environment.
 
 ## Installation
-
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:
 
@@ -27,12 +27,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
-
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
-
-## ISO
-
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
 
 ## Verification
 
