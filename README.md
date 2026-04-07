@@ -1,7 +1,8 @@
 # ublue-cosmic &nbsp; [![bluebuild build badge](https://github.com/itstanman1/ublue-cosmic/actions/workflows/build.yml/badge.svg)](https://github.com/itstanman1/ublue-cosmic/actions/workflows/build.yml)
 
 My personal Universal Blue based OS image. This build focuses on integrating the COSMIC desktop environment and the CachyOS kernel onto a stable atomic base.
-Personal Configuration
+
+## Personal Configuration
 
 - Kernel: Swapped to the CachyOS kernel for more performance in game.
 
