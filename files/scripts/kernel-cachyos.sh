@@ -3,7 +3,7 @@
 set -oue pipefail
 
 #Remove Fedora kernel and cleanup files
-dnf -y remove kernel kernel-*
+dnf -y remove kernel "kernel-*"
 rm -rf /usr/lib/modules/*
 
 #Enable the COPR repository
