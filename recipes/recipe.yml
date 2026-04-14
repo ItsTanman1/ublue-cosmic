@@ -10,8 +10,8 @@ image-version: 44
 modules:
   - type: script
     scripts:
-    - kernel-cachyos.sh
-    - cosmic.sh
+      - kernel-cachyos.sh
+      - cosmic.sh
 
   - type: dnf
     #Install Packages
