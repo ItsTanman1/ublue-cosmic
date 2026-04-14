@@ -11,16 +11,10 @@ modules:
   - type: script
     scripts:
     - kernel-cachyos.sh
+    - cosmic.sh
 
   - type: dnf
     #Install Packages
-    group-install:
-      with-optional: false
-      install-weak-deps: false
-      packages:
-        - cosmic-desktop
-        - cosmic-desktop-apps
-        
     install:
       packages:
         #System Packages
