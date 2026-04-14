@@ -9,6 +9,7 @@ image-version: 44
 #Module Configuration, Executed in Order
 modules:
   - type: script
+    #Run Scripts
     scripts:
       - kernel-cachyos.sh
       - cosmic.sh
@@ -17,7 +18,6 @@ modules:
     #Install Packages
     install:
       packages:
-        #System Packages
         - fastfetch
         - fish
     
@@ -31,7 +31,7 @@ modules:
 
   - type: systemd
     system:
-      #Enable systemd services
+      #Enable services
       enabled:
         - cosmic-greeter
 
