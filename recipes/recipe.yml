@@ -16,6 +16,7 @@ modules:
     #Install Packages
     group-install:
       with-optional: false
+      install-weak-deps: false
       packages:
         - cosmic-desktop
         - cosmic-desktop-apps
