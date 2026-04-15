@@ -17,13 +17,13 @@ modules:
   - type: dnf
     #Group Install Packages
     group-install:
-    with-optional: false
-    install-weak-deps: false
-    packages:
-      - cosmic-desktop
-    exclude:
-      - system-config-printer
-      - gnome-keyring-pam
+      with-optional: false
+      install-weak-deps: false
+      packages:
+        - cosmic-desktop
+      exclude:
+        - system-config-printer
+        - gnome-keyring-pam
 
     #Install Packages
     install:
