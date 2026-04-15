@@ -12,9 +12,19 @@ modules:
     #Run Scripts
     scripts:
       - kernel-cachyos.sh
-      - cosmic.sh
+      #- cosmic.sh
 
   - type: dnf
+    #Group Install Packages
+    group-install:
+    with-optional: false
+    install-weak-deps: false
+    packages:
+      - cosmic-desktop
+    exclude:
+      - system-config-printer
+      - gnome-keyring-pam
+
     #Install Packages
     install:
       packages:
