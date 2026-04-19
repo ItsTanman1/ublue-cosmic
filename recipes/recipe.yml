@@ -30,7 +30,6 @@ modules:
       packages:
         - fastfetch
         - fish
-        - gamescope
     
     #Remove Packages
     remove:
