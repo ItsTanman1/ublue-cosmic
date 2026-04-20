@@ -12,7 +12,6 @@ modules:
     #Run Scripts
     scripts:
       - kernel-cachyos.sh
-      #- cosmic.sh
 
   - type: dnf
     #Group Install Packages
