@@ -29,6 +29,7 @@ modules:
       packages:
         - fastfetch
         - fish
+        - btop
     
     #Remove Packages
     remove:
