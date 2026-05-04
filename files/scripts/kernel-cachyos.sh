@@ -20,6 +20,7 @@ dracut --kver "$VER" \
     --add ostree \
     --no-hostonly \
     --reproducible \
+    --compress zstd \
     "/usr/lib/modules/$VER/initramfs.img"
 
 #Remove the COPR repository
