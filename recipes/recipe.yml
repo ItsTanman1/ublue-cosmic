@@ -30,11 +30,5 @@ modules:
         - nvtop
         - htop
 
-  - type: systemd
-    system:
-      #Enable services
-      enabled:
-        - cosmic-greeter
-
   #This sets up the proper policy & signing files for signed images to work fully
   - type: signing
