@@ -10,21 +10,13 @@ My personal Universal Blue based OS image. This build focuses on integrating the
 
 ## Installation
 
-To rebase an existing atomic Fedora installation to the latest build:
+To rebase an existing Fedora Bootc installation to the latest build:
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
+- Switch to the new container image:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/itstanman1/ublue-cosmic:latest
+  sudo bootc switch ghcr.io/itstanman1/ublue-cosmic:latest
   ```
 - Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/itstanman1/ublue-cosmic:latest
-  ```
-- Reboot again to complete the installation
   ```
   systemctl reboot
   ```
