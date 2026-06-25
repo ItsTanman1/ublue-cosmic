@@ -21,6 +21,7 @@ modules:
         - fastfetch
         - fish
         - btop
+        - ollama
     
     #Remove Packages
     remove:
