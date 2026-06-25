@@ -6,7 +6,7 @@ set -oue pipefail
 dnf -y copr enable ryanabx/cosmic-epoch
 
 #Install Cosmic Nightly
-dnf -y install cosmic-desktop --setopt=install_weak_deps=False
+dnf -y install cosmic-desktop cosmic-monitor --setopt=install_weak_deps=False
 
 #Remove the COPR repository
 rm -f /etc/yum.repos.d/*copr*.repo
