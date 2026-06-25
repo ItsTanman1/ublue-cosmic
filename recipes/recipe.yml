@@ -20,8 +20,8 @@ modules:
       packages:
         - fastfetch
         - fish
-        - btop
         - ollama
+        - rocm
     
     #Remove Packages
     remove:
