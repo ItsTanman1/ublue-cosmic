@@ -21,6 +21,7 @@ modules:
         - cosmic-desktop
       exclude:
         - system-config-printer
+        - gnome-keyring-pam
     install:
       packages:
         - fastfetch
