@@ -10,7 +10,7 @@ rm -rf /usr/lib/modules/*
 dnf -y copr enable bieszczaders/kernel-cachyos
 
 #Install the CachyOS kernel and bypass scripts
-dnf -y install kernel-cachyos-lts --setopt=tsflags=noscripts
+dnf -y install kernel-cachyos --setopt=tsflags=noscripts
 
 #Build modules, run depmod & generate initramfs
 VER=$(ls /lib/modules)
